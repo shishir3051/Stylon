@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla&display=swap");
+
 * {
     margin: 0;
     padding: 0;
@@ -16,8 +18,8 @@ html {
     background-position: center;
     background-size: cover;
     position: relative;
-    border-bottom-right-radius: 66% 18%;
-    border-bottom-left-radius: 66% 18%;
+    border-bottom-right-radius: 81% 18%;
+    border-bottom-left-radius: 81% 18%;
 }
 nav {
     display: flex;
@@ -34,20 +36,10 @@ nav a {
     gap: 10px;
     font-size: 13px;
 }
-nav ul li::after {
-    content: "";
-    width: 0%;
-    height: 3px;
-    background: #000;
-    display: block;
-    margin: auto;
-    transition: 0.5s;
-}
-nav ul li:hover::after {
-    width: 100%;
-}
+
 nav img {
-    width: 70px;
+    width: 85px;
+    margin-left: 76px;
 }
 .nav-links {
     flex: 1;
@@ -69,10 +61,17 @@ nav img {
     text-align: center;
 }
 .text-box h1 {
-    font-size: 62px;
+    font-family: "Karla", sans-serif;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 64px;
 }
 .text-box p {
-    font-size: 14px;
+    font-family: "Karla", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
     margin: 10px 0 40px;
 }
 .btn {
@@ -80,18 +79,86 @@ nav img {
     text-decoration: none;
     color: white;
     border: 1px solid white;
+    border-radius: 20px;
     padding: 12px 34px;
     font-size: 13px;
     background: transparent;
+    background: #f44336;
     position: relative;
     cursor: pointer;
     transition: 1s;
 }
+
+.btn1 {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 9px 20px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
 .btn:hover {
     border: 1px solid #f44336;
-    background: #f44336;
+    background: #d42b1f;
     transition: 1s;
 }
 nav .fas {
     display: none;
+}
+
+.about {
+    display: flex;
+    gap: 30px;
+    max-width: 83%;
+    padding: 50px 100px 50px 100px;
+    margin-inline: auto;
+}
+
+.left_container {
+    width: 50%;
+}
+.left_container h4 {
+    font-family: "Karla", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 41.6px;
+}
+.left_container h5 {
+    font-family: "Karla", sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    color: #f44336;
+}
+
+.right_container {
+    width: 50%;
+}
+.right_container p {
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: justify;
+}
+.platform {
+    text-align: center;
+    padding: 70px;
+}
+.platform h1 {
+    font-family: "Karla", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 10px;
+    line-height: 43.2px;
+}
+.platform p {
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
 }
