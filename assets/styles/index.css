@@ -3,7 +3,6 @@
 * {
     margin: 0;
     padding: 0;
-    font-family: "Poppins", sans-serif;
 }
 body,
 html {
@@ -116,6 +115,7 @@ nav .fas {
     max-width: 83%;
     padding: 50px 100px 50px 100px;
     margin-inline: auto;
+    margin-left: 50px;
 }
 
 .left_container {
@@ -124,7 +124,7 @@ nav .fas {
 .left_container h4 {
     font-family: "Karla", sans-serif;
     font-weight: 700;
-    font-size: 32px;
+    font-size: 31px;
     line-height: 41.6px;
 }
 .left_container h5 {
@@ -136,7 +136,7 @@ nav .fas {
 }
 
 .right_container {
-    width: 50%;
+    width: 48%;
 }
 .right_container p {
     font-family: "Karla", sans-serif;
@@ -144,6 +144,7 @@ nav .fas {
     font-size: 18px;
     line-height: 27px;
     text-align: justify;
+    color: rgb(79, 86, 102);
 }
 .platform {
     text-align: center;
@@ -161,4 +162,124 @@ nav .fas {
     font-weight: 400;
     font-size: 18px;
     line-height: 27px;
+    color: rgb(79, 86, 102);
+}
+
+.services {
+    display: flex;
+    gap: 30px;
+    max-width: 83%;
+    padding: 50px 100px 50px 100px;
+    margin-inline: auto;
+    margin-left: 50px;
+}
+.left_container1 {
+    width: 50%;
+}
+.left_container1 p {
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgb(79, 86, 102);
+    margin-bottom: 25px;
+}
+.left_container1 h4 {
+    font-family: "Karla", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 41.6px;
+    margin-bottom: 15px;
+}
+.list ul li {
+    font-family: "Karla", sans-serif;
+    color: rgb(79, 86, 102);
+    list-style: none;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 34px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.right_container1 {
+    width: 48%;
+}
+.right_container1 img {
+    width: 500px;
+    height: 359px;
+}
+
+.list ul li img {
+    width: 26.67px;
+    height: 26.67px;
+    opacity: 40%;
+}
+.left_container2 {
+    max-width: 50%;
+}
+.left_container2 img {
+    width: 500px;
+    height: 359px;
+}
+.right_container2 {
+    width: 48%;
+}
+.right_container2 p {
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgb(79, 86, 102);
+    margin-bottom: 25px;
+}
+.right_container2 h4 {
+    font-family: "Karla", sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41.6px;
+    margin-bottom: 15px;
+}
+.video {
+    display: flex;
+    gap: 15px;
+}
+.image span {
+    font-size: 48px;
+    color: #1565d8;
+}
+.video h6 {
+    font-family: sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 21.79px;
+    color: #5a7184;
+    margin-bottom: 5px;
+}
+.video p {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21.79px;
+    color: #1565d8;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.video p span {
+    font-size: 18px;
+    font-weight: 900;
+    /* line-height: 40px; */
+}
+
+.features {
+    display: flex;
+    gap: 30px;
+    max-width: 83%;
+    padding: 50px 100px 50px 100px;
+    margin-inline: auto;
+    margin-left: 50px;
 }
