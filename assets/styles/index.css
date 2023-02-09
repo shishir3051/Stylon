@@ -283,3 +283,117 @@ nav .fas {
     margin-inline: auto;
     margin-left: 50px;
 }
+
+.technology {
+    display: flex;
+    gap: 30px;
+    max-width: 83%;
+    padding: 50px 100px 50px 100px;
+    margin-inline: auto;
+    margin-left: 50px;
+}
+.vector img {
+    width: 66.67px;
+    height: 66.13px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.div1 h5 {
+    font-family: "Karla", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.8px;
+    margin-bottom: 15px;
+}
+.div1 p {
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgb(79, 86, 102);
+    margin-bottom: 25px;
+}
+
+.container {
+    display: flex;
+    margin-top: 50px;
+}
+.box {
+    position: relative;
+    width: 288px;
+    height: 300px;
+    overflow: hidden;
+}
+.box2 {
+    width: 288px;
+    height: 300px;
+    overflow: hidden;
+}
+.box2 img {
+    width: 100%;
+}
+.box img {
+    width: 100%;
+    transition: all linear 0.7s;
+}
+
+img.hover-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.box:hover img {
+    opacity: 0;
+}
+
+.box:hover img.hover-img {
+    opacity: 1;
+}
+
+/* slideshow-container */
+.swiper-slide {
+    display: flex;
+    gap: 30px;
+    max-width: 83%;
+    padding: 20px 100px 0 90px;
+    margin-inline: auto;
+    margin: 5% 0% 10% 4%;
+}
+
+.numbertext {
+    flex-basis: 55%;
+    padding-top: 7%;
+}
+.numbertext p {
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #4e566d;
+    margin-bottom: 40px;
+}
+.text h1 {
+    font-family: "Karla", sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 41.6px;
+}
+.mySlider_img {
+    flex-basis: 40%;
+    text-align: center;
+}
+
+.mySlider_img img {
+    width: 300px;
+    height: 420px;
+    border-radius: 400px;
+}
+.swiper .swiper-pagination {
+    font-size: 350px;
+    margin: 10px;
+}
+.swiper .swiper-pagination-bullet-active {
+    background: red;
+}

@@ -10,7 +10,12 @@
             rel="stylesheet"
             href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
         />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+        />
     </head>
+
     <body>
         <section class="header">
             <nav>
@@ -172,5 +177,178 @@
                 </p>
             </div>
         </section>
+
+        <section class="technology">
+            <div class="div1">
+                <div class="vector">
+                    <img src="assets/images/Vector.jpg" alt="" />
+                </div>
+                <h5>Stay at Home first</h5>
+                <p>
+                    Our technology makes it practically impossible for any
+                    patient data breach to occur.
+                </p>
+            </div>
+            <div class="div1">
+                <div class="vector">
+                    <img src="assets/images/Vector.jpg" alt="" />
+                </div>
+                <h5>Stay at Home first</h5>
+                <p>
+                    Our technology makes it practically impossible for any
+                    patient data breach to occur.
+                </p>
+            </div>
+            <div class="div1">
+                <div class="vector">
+                    <img src="assets/images/Vector.jpg" alt="" />
+                </div>
+                <h5>Stay at Home first</h5>
+                <p>
+                    Our technology makes it practically impossible for any
+                    patient data breach to occur.
+                </p>
+            </div>
+        </section>
+
+        <section class="container">
+            <div class="box">
+                <img src="assets/images/Services Gallery Card.jpg" />
+                <img
+                    src="assets/images/Services Gallery Card (2).jpg"
+                    class="hover-img"
+                />
+            </div>
+            <div class="box2">
+                <img src="assets/images/Services Gallery Card (1).jpg" />
+            </div>
+            <div class="box2">
+                <img src="assets/images/Services Gallery Card (2).jpg" />
+            </div>
+            <div class="box">
+                <img src="assets/images/Services Gallery Card (3).jpg" />
+                <img
+                    src="assets/images/Services Gallery Card (2).jpg"
+                    class="hover-img"
+                />
+            </div>
+            <div class="box">
+                <img src="assets/images/Services Gallery Card (4).jpg" />
+                <img
+                    src="assets/images/Services Gallery Card (2).jpg"
+                    class="hover-img"
+                />
+            </div>
+        </section>
+        <section class="container1">
+            <div class="swiper mySlides_container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="numbertext">
+                            <p>
+                                If this is implemented it will be of great
+                                benefit. Especially going to the parlor and
+                                sitting for hours and hours is boring. Again I
+                                can select which package of the parlor is best
+                                and budget friendly for me. This service ais
+                                really needed. All the best to those who are
+                                working to implement this service. Best of luck.
+                            </p>
+                            <div class="text">
+                                <h1>Radiatul Ratna</h1>
+                                <p>Chairman, Fast People's Care Ltd.</p>
+                            </div>
+                        </div>
+                        <div class="mySlider_img">
+                            <img src="assets/images/Headshot2.jpg" alt="" />
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="numbertext">
+                            <p>
+                                It will be the natioin's first fashion-ralated
+                                social media invention. This new startup has a
+                                sizable market,rapid growth,and low competition.
+                                The future of this startup is clear to me.
+                                Warmest regards to the founders.
+                            </p>
+                            <div class="text">
+                                <h1>Adil Hasan Akash</h1>
+                                <p>
+                                    Co-Founder & MD.Robust Research And
+                                    Development Ltd.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="mySlider_img">
+                            <img src="assets/images/Headshot.jpg" alt="" />
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="numbertext">
+                            <p>
+                                This is a great idea. If it can be implemented
+                                then the salon can provide excellent service,
+                                maintain good environment and good hygine. I
+                                think they will providea great hair spa in a
+                                very relaxing environment. Avanee, owner and
+                                head stylist is very attentive And will deliver
+                                excellent results. Best of luck to them.
+                            </p>
+                            <div class="text">
+                                <h1>Pial Hasan Shadhin</h1>
+                                <p>Founder,Icche Initiative.</p>
+                            </div>
+                        </div>
+                        <div class="mySlider_img">
+                            <img src="assets/images/Headshot1.jpg" alt="" />
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="numbertext">
+                            <p>
+                                Your idea is really great. I believe that if you
+                                create this service it will help us. Besids, In
+                                this generation people are more serious about
+                                their time. So Your service save us people
+                                valuable time. So just build this properly and
+                                save us our valuable time.
+                            </p>
+                            <div class="text">
+                                <h1>Zahidul Dipu</h1>
+                                <p>Founder and CEO,UzanX.</p>
+                            </div>
+                        </div>
+                        <div class="mySlider_img">
+                            <img src="assets/images/Headshot3.jpg" alt="" />
+                        </div>
+                    </div>
+                </div>
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <!-- script -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper(".swiper", {
+                autoplay: {
+                    delay: 3000,
+                    disableOnInteraction: false,
+                },
+                loop: true,
+
+                pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                },
+
+                navigation: {
+                    nextEl: ".swiper-button-next",
+                    prevEl: ".swiper-button-prev",
+                },
+            });
+        </script>
     </body>
 </html>
