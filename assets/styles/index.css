@@ -113,7 +113,7 @@ nav .fas {
     display: flex;
     gap: 30px;
     max-width: 83%;
-    padding: 50px 100px 50px 100px;
+    padding: 77px 100px 75px 100px;
     margin-inline: auto;
     margin-left: 50px;
 }
@@ -125,6 +125,7 @@ nav .fas {
     font-family: "Karla", sans-serif;
     font-weight: 700;
     font-size: 31px;
+    color: #242436;
     line-height: 41.6px;
 }
 .left_container h5 {
@@ -153,6 +154,7 @@ nav .fas {
 .platform h1 {
     font-family: "Karla", sans-serif;
     font-weight: 700;
+    color: #242436;
     font-size: 36px;
     margin-bottom: 10px;
     line-height: 43.2px;
@@ -188,6 +190,7 @@ nav .fas {
     font-family: "Karla", sans-serif;
     font-weight: 700;
     font-size: 32px;
+    color: #242436;
     line-height: 41.6px;
     margin-bottom: 15px;
 }
@@ -384,16 +387,135 @@ img.hover-img {
     flex-basis: 40%;
     text-align: center;
 }
+.swiper-horizontal > .swiper-pagination-bullets,
+.swiper-pagination-bullets.swiper-pagination-horizontal,
+.swiper-pagination-custom,
+.swiper-pagination-fraction {
+    left: 198px !important;
+    bottom: 130px !important;
+    width: 150px !important;
+}
 
+.swiper-pagination-bullet {
+    width: 20px !important;
+    height: 10px !important;
+    border-radius: 50px !important;
+}
 .mySlider_img img {
     width: 300px;
     height: 420px;
     border-radius: 400px;
 }
-.swiper .swiper-pagination {
+/* .swiper .swiper-pagination {
     font-size: 350px;
     margin: 10px;
-}
+} */
 .swiper .swiper-pagination-bullet-active {
     background: red;
+}
+
+.contucts {
+    text-align: center;
+    padding: 70px;
+    width: 71%;
+    margin-inline: auto;
+    margin-left: 12%;
+    border-radius: 20px;
+    background: #f9f9f9;
+}
+.contucts_text {
+    text-align: center;
+}
+.contucts_text h3 {
+    font-family: "Karla", sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 43.2px;
+    text-align: center;
+}
+.contucts_text p {
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgb(79, 86, 102);
+    margin-bottom: 32px;
+}
+
+input {
+    position: relative;
+    display: inline-block;
+    font-size: 17px;
+    box-sizing: border-box;
+    transition: 0.5s;
+}
+
+input[type="email"] {
+    width: 400px;
+    height: 50px;
+    border: none;
+    outline: none;
+    margin-left: 98px;
+    padding: 0 25px;
+    border-radius: 25px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+input[type="submit"] {
+    position: relative;
+    border-radius: 25px;
+    width: 110px;
+    height: 38px;
+    border: none;
+    outline: none;
+    color: white;
+    background: #d42b1f;
+    cursor: pointer;
+    transform: translate(-113%);
+}
+
+.contucts_form p {
+    font-family: "Karla", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 27px;
+    margin-left: 80px;
+    color: rgb(79, 86, 102);
+    margin: 10px 0 0 0;
+}
+.footer {
+    padding: 75px 0px 0 50px;
+    width: 80%;
+    display: flex;
+    margin-inline: auto;
+    margin-left: 9%;
+}
+.footer_text p {
+    font-family: "Karla", sans-serif;
+    line-height: 24px;
+    color: #4e566d;
+    font-size: 16px;
+    margin-top: 5px;
+}
+.icons {
+    display: flex;
+    gap: 10px;
+    height: 100px;
+    margin-left: 62%;
+}
+.footer-button {
+    border: none;
+    border-radius: 6px;
+    text-align: center;
+    cursor: pointer;
+    box-shadow: rgb(209, 217, 230) -5px 5px 15px,
+        rgb(255, 255, 255) -5px -5px 15px;
+    width: 32px;
+    height: 32px;
+    transition: all 0.4s ease 0s;
+}
+.footer-button:hover {
+    margin-bottom: 10px;
+    background-color: #dc0f22;
+    color: #ffffff;
+    transform: translateY(-5px);
 }
