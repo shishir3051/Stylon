@@ -593,6 +593,18 @@ input[type="submit"] {
         flex: 1;
         text-align: right;
     }
+    .btn1 {
+        display: block;
+        /* padding: 9px 16px; */
+        font-size: 18px;
+        width: 130px;
+    }
+    .nav-links {
+        text-align: left;
+    }
+    nav a {
+        font-size: 20px;
+    }
     *,
     ::after,
     ::before {
@@ -761,33 +773,52 @@ input[type="submit"] {
         margin-top: 50px;
         flex-wrap: wrap;
     }
+    /* mySlider_img img {
+        width: 50% !important;
+    } */
 }
 
 @media (max-width: 664px) {
-    input[type="submit"] {
+    /* input[type="submit"] {
         width: 100px;
         transform: translate(-112px);
-    }
+    } */
     input[type="email"] {
         width: 300px;
-        margin-left: 9px;
+        margin-left: 0px !important;
         margin-bottom: 10px;
     }
-}
-@media (max-width: 664px) {
     input[type="submit"] {
         width: 100px;
-        transform: translate(0);
+        transform: translate(0) !important;
     }
 }
 
 @media (max-width: 1200px) {
-    .carousel-indicators {
-        bottom: 86px !important;
-    }
-    .mySlider_img img {
+    /* .carousel-indicators {
+        bottom: 145px !important;
+    } */
+    /* .mySlider_img img {
         width: 100%;
         height: 82%;
+    } */
+    /* .box {
+        position: relative;
+        
+
+        overflow: hidden;
+    }
+    .box2 {
+        position: relative;
+
+        
+        overflow: hidden;
+    } */
+    /* .icons {
+        margin-left: 17%;
+    } */
+    .service3-image {
+        max-width: 84% !important;
     }
 }
 @media (max-width: 988px) {
@@ -815,5 +846,24 @@ input[type="submit"] {
     input[type="submit"] {
         width: 100px;
         transform: translate(-112px);
+    }
+    .service3-image {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-left: 8%;
+    }
+    .box {
+        position: relative;
+        width: 261px;
+        height: 263px;
+        overflow: hidden;
+    }
+    .box2 {
+        position: relative;
+        width: 261px;
+        height: 263px;
+        overflow: hidden;
     }
 }
