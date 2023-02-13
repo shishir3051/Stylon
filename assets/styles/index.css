@@ -359,9 +359,9 @@ nav .fas {
     margin-top: 50px;
 }
 
-.service3-image {
+/* .service3-image {
     width: 94%;
-}
+} */
 .box {
     position: relative;
     width: 100%;
@@ -852,7 +852,7 @@ input[type="submit"] {
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-evenly;
-        margin-left: 8%;
+        /* margin-left: 8%; */
     }
     .box {
         position: relative;
